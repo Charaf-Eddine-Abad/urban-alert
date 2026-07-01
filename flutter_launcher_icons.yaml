@@ -1,0 +1,20 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+
+  # Android adaptive icon (API 26+)
+  adaptive_icon_background: "#1A56DB"
+  adaptive_icon_foreground: "assets/icons/app_icon_fg.png"
+
+  # Web (optional)
+  web:
+    generate: false
+
+  # macOS (optional)
+  macos:
+    generate: false
+
+  # Windows (optional)
+  windows:
+    generate: false

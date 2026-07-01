@@ -1,0 +1,21 @@
+flutter_native_splash:
+  # Civic blue background — same as SplashScreen Dart widget
+  color: "#1A56DB"
+  color_dark: "#0D47A1"
+
+  # White logo mark centered
+  image: assets/icons/app_icon_fg.png
+  image_dark: assets/icons/app_icon_fg.png
+
+  # Android 12+ splash config
+  android_12:
+    color: "#1A56DB"
+    color_dark: "#0D47A1"
+    image: assets/icons/app_icon_fg.png
+    image_dark: assets/icons/app_icon_fg.png
+    icon_background_color: "#1A56DB"
+    icon_background_color_dark: "#0D47A1"
+
+  # Keep native splash while Flutter initialises
+  android: true
+  ios: true

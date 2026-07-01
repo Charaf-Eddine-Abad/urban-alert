@@ -1,0 +1,19 @@
+targets:
+  $default:
+    builders:
+      riverpod_generator:
+        options:
+          # Use AsyncNotifierProvider instead of StateNotifierProvider
+          riverpod_version: 3
+
+      json_serializable:
+        options:
+          explicit_to_json: true
+          field_rename: none       # snake_case fields declared explicitly per-model
+          include_if_null: false   # omit null fields in JSON output
+
+      freezed:
+        options:
+          # Generate copyWith, ==, hashCode, toString for all @freezed classes
+          map: true
+          when: true
